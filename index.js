@@ -53,7 +53,6 @@ function convertJSONToCSV() {
             console.log('Data stored into csv file successfully');
         });
     });
-
 }
 async function ScrapeData() {
     try {
@@ -95,12 +94,9 @@ async function ScrapeData() {
             }
             console.log("Successfully written data to file");
         });
-
         convertJSONToCSV();
-
     } catch (error) {
         console.log(error);
     }
 }
-
 setInterval(() => ScrapeData(), 2000); // rexecute the script every 2 s
