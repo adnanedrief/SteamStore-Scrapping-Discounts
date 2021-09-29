@@ -1,6 +1,6 @@
 # SteamStore Scrapping Discounts
 
-Web Scrapping SteamStore using Cheerio in NodeJS.
+Scrapping Discounts in SteamStore using Cheerio in NodeJS.
 
 ## Installation
 
